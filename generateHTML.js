@@ -24,7 +24,7 @@ const teamPage = page.map(member => {
 
 const generateFullPage = function (page){
 
-    return '
+    return
      <!DOCTYPE html>
     <html lang="en">
     <head>
