@@ -1,3 +1,4 @@
+const employeeFolder = require("./titlefolder/employee")
 const managerFolder = require("./titlefolder/manager")
 
 const generatePage = page => {
@@ -44,8 +45,10 @@ const generateFullPage = function (page){
         <div class="container">
             <div class ="m-8 p-8 grid bg-blue-600 grid-cols-2 
             grid-flow-row gap-4 auto-rows-auto" id="team-row">
+            ${employeeFolder}
         
         </main>
+        </div>
     
     </body>
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
