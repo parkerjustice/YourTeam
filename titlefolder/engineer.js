@@ -11,3 +11,5 @@ class engineerFolder extends employeeFolder{
         return"${this.gethub}";
     }
 }
+
+module.exports = engineerFolder

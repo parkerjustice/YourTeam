@@ -1,5 +1,5 @@
-const theEmployee = require('./employee');
-class theIntern extends theEmployee {
+const employeeFolder = require('./employee');
+class internFolder extends employeeFolder {
     constructor(school="", id="", email="", name=""){
         super(id,email,name);
         this.school = school;
@@ -11,3 +11,4 @@ class theIntern extends theEmployee {
         return"${this.school}";
     }
 }
+module.exports = internFolder
